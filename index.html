@@ -1,13 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Gold Miner</title>
-  </head>
-  <body>
-    <p id="goldMined">0 Gold Mined</p>
-    <button onclick="mineGold()">Mine Gold</button>
-    <button onclick="buyGoldPerClick()" id="perClickUpgrade">Upgrade Pickaxe (Currently Level 1) Cost: 10 Gold</button>
-    <script src="main.js" charset="utf-8" type="text/javascript"></script>
-  </body>
+<html>
+    <head>
+        <title>WIP</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <button class="mine"></button>
+        <button class="saveGame">Save game</button>
+        <button class="upgradePick">Upgrade Pickaxe <br>Cost: 1000 stone</button>
+        <div class="stoneDiv">
+            <img src="img/stone.png" class="stoneIMG" title="Stone">
+            <p class="stone">0</p>
+        </div>
+        <div class="copperDiv">
+            <img src="img/copper.png" class="copperIMG" title="Copper">
+            <p class="copper">0</p>
+        </div>
+    </body>
+    <script src="main.js"></script>
 </html>
